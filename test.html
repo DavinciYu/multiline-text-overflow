@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title>多行文本溢出处理</title>
+    <style>
+      .text-overflow {
+        line-height: 25px;
+        background-color: #fff;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="text_overflow1" class="text-overflow">
+      用于确定如何提示用户存在隐藏的溢出内容。其形式可以是显示一个省略号（、显示一个自定义字符串或显示一个自定义组件。用于确定如何提示用户存在隐藏的溢出内容。其形式可以是显示一个省略号（、显示一个自定义字符串或显示一个自定义组件。用于确定如何提示用户存在隐藏的溢出内容。其形式可以是显示一个省略号（、显示一个自定义字符串或显示一个自定义组件。用于确定如何提示用户存在隐藏的溢出内容。其形式可以是显示一个省略号（、显示一个自定义字符串或显示一个自定义组件。
+    </div>
+    <div id="text_overflow2" class="text-overflow">
+      用于确定如何提示用户存在隐藏的溢出内容。其形式可以是显示一个省略号（、显示一个自定义字符串或显示一个自定义组件。用于确定如何提示用户存在隐藏的溢出内容。其形式可以是显示一个省略号（、显示一个自定义字符串或显示一个自定义组件。用于确定如何提示用户存在隐藏的溢出内容。其形式可以是显示一个省略号（、显示一个自定义字符串或显示一个自定义组件。用于确定如何提示用户存在隐藏的溢出内容。其形式可以是显示一个省略号（、显示一个自定义字符串或。
+    </div>
+    <div id="text_overflow3" class="text-overflow">
+      用于确定如何提示用户存在隐藏的溢出内容。其形式可以是显示一个省略号（、显示一个自定义字符串或显示一个自定义组件。用于确定如何提示用户存在隐藏的溢出内容。其形式可以是显示一个省略号（、显示一个自定义字符串或显示一个自定义组件。用于确定如何提示用户存在隐藏的溢出内容。其形式可以是显示一个省略号（、显示一个自定义字符串或显示一个自定义组件。用于确定如何提示用户存在隐藏的溢出内容。其形式可以是显示一个省略号（、显示一个自定义字符串或。
+    </div>
+  </body>
+  <script type="module">
+    import multilineTextOverflow from './index.js'
+    multilineTextOverflow({
+      eleId: 'text_overflow1',
+      foldLines: 2,
+      handleType: 'ellipsis'
+    })
+    multilineTextOverflow({
+      eleId: 'text_overflow2',
+      foldLines: 2,
+      handleType: 'words'
+    })
+    multilineTextOverflow({
+      eleId: 'text_overflow3',
+      foldLines: 2,
+      handleType: 'arrow'
+    })
+  </script>  
+</html>
