@@ -1,10 +1,14 @@
 {
   "name": "multiline-text-overflow",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "deal with multiline text overflow flexibly",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DavinciYu/multiline-text-overflow.git"
   },
   "keywords": [
     "text-overflow",
