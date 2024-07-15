@@ -1,6 +1,6 @@
 {
   "name": "multiline-text-overflow",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "deal with multiline text overflow flexibly",
   "main": "index.js",
   "scripts": {

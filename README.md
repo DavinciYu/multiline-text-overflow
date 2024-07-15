@@ -10,7 +10,7 @@
 </div>
 ```
 ```js
-import multilineTextOverflow from './index.js'
+import multilineTextOverflow from 'multiline-text-overflow'
 multilineTextOverflow({
   eleId: 'text_overflow',
   foldLines: 2,
